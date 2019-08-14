@@ -2,8 +2,9 @@ package org.horaapps.liz.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.LinearLayoutCompat;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.LinearLayoutCompat;
 import android.util.AttributeSet;
 
 import org.horaapps.liz.R;

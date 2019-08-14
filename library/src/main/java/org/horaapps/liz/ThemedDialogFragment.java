@@ -1,7 +1,8 @@
 package org.horaapps.liz;
 
 import android.content.Context;
-import android.support.v4.app.DialogFragment;
+
+import androidx.fragment.app.DialogFragment;
 
 /**
  * Created by dnld on 9/9/17.

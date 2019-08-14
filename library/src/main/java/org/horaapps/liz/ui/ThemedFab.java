@@ -4,10 +4,11 @@ import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.Color;
-import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
 import android.util.AttributeSet;
 
+import androidx.annotation.Nullable;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.mikepenz.iconics.IconicsDrawable;
 import com.mikepenz.iconics.typeface.IIcon;
 
@@ -46,11 +47,10 @@ public class ThemedFab extends FloatingActionButton implements Themed {
     }
 
     public void setIcon(IIcon icon) {
-        mIcon = new IconicsDrawable(getContext()).icon(icon).color(Color.WHITE);
+//        mIcon = new IconicsDrawable(getContext()).icon(icon).color(Color.WHITE.toIconicsColor());
     }
 
     public void setIcon(String icon) {
-        mIcon = new IconicsDrawable(getContext()).icon(icon).color(Color.WHITE);
-
+//        mIcon = new IconicsDrawable(getContext()).icon(icon).color(Color.WHITE.toIconicsColor());
     }
 }

@@ -1,7 +1,8 @@
 package org.horaapps.liz;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by dnld on 01/04/17.

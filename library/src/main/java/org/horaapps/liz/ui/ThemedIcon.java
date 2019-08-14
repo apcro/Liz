@@ -1,9 +1,11 @@
 package org.horaapps.liz.ui;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
+import androidx.annotation.Nullable;
+
+import com.mikepenz.iconics.IconicsColor;
 import com.mikepenz.iconics.typeface.IIcon;
 import com.mikepenz.iconics.view.IconicsImageView;
 
@@ -33,7 +35,7 @@ public class ThemedIcon extends IconicsImageView implements Themed {
     }
 
     public void setColor(int color) {
-        setIcon(getIcon().color(color));
+        setIcon(getIcon().color(IconicsColor.colorInt(color)));
     }
 
     public void setIcon(IIcon icon) {

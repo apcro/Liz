@@ -8,9 +8,10 @@ import android.graphics.PorterDuffColorFilter;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.ColorRes;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.SwitchCompat;
+
+import androidx.annotation.ColorRes;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.widget.SwitchCompat;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -21,7 +22,9 @@ import android.widget.ScrollView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.mikepenz.iconics.IconicsColor;
 import com.mikepenz.iconics.IconicsDrawable;
+import com.mikepenz.iconics.IconicsSize;
 import com.mikepenz.iconics.typeface.IIcon;
 import com.orhanobut.hawk.Hawk;
 
@@ -185,15 +188,18 @@ public class ThemeHelper {
 	}
 
 	public IconicsDrawable getToolbarIcon(IIcon icon) {
-		return new IconicsDrawable(context).icon(icon).color(Color.WHITE).sizeDp(18);
+		return new IconicsDrawable(context)
+				.icon(icon)
+				.color(IconicsColor.colorInt(Color.WHITE))
+				.size(IconicsSize.dp(18));
 	}
 
 	public static IconicsDrawable getToolbarIcon(Context context, IIcon icon) {
-		return new IconicsDrawable(context).icon(icon).color(Color.WHITE).sizeDp(18);
+		return new IconicsDrawable(context).icon(icon).color(IconicsColor.colorInt(Color.WHITE)).size(IconicsSize.dp(18));
 	}
 
 	public IconicsDrawable getIcon(IIcon icon) {
-		return new IconicsDrawable(context).icon(icon).color(getIconColor());
+		return new IconicsDrawable(context).icon(icon).color(IconicsColor.colorInt(getIconColor()));
 	}
 
 

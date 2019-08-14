@@ -1,8 +1,9 @@
 package org.horaapps.liz.ui;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+
+import androidx.annotation.Nullable;
 
 import org.horaapps.liz.ThemeHelper;
 import org.horaapps.liz.Themed;
@@ -11,7 +12,7 @@ import org.horaapps.liz.Themed;
 /**
  * Created by dnld on 04.03.2017.
  */
-public class ThemedEditText extends android.support.v7.widget.AppCompatEditText implements Themed {
+public class ThemedEditText extends androidx.appcompat.widget.AppCompatEditText implements Themed {
 
 
     public ThemedEditText(Context context) {

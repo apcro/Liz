@@ -5,10 +5,11 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.SwitchCompat;
+
+import androidx.annotation.CallSuper;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.widget.SwitchCompat;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
