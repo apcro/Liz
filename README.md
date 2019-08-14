@@ -3,7 +3,7 @@
 
 Add support to themes in your app.
 
-Usage example [LeafPic](https://github.com/HoraApps/LeafPic)
+Usage example [LeafPic](https://github.com/apcro/LeafPic)
 
 ## Setup:
 

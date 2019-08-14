@@ -3,14 +3,12 @@ package org.horaapps.liz.ui;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
-import android.graphics.Color;
 import android.util.AttributeSet;
 
 import androidx.annotation.Nullable;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.mikepenz.iconics.IconicsDrawable;
-import com.mikepenz.iconics.typeface.IIcon;
 
 import org.horaapps.liz.R;
 import org.horaapps.liz.ThemeHelper;
@@ -46,11 +44,7 @@ public class ThemedFab extends FloatingActionButton implements Themed {
         setImageDrawable(mIcon);
     }
 
-    public void setIcon(IIcon icon) {
-//        mIcon = new IconicsDrawable(getContext()).icon(icon).color(Color.WHITE.toIconicsColor());
-    }
-
     public void setIcon(String icon) {
-//        mIcon = new IconicsDrawable(getContext()).icon(icon).color(Color.WHITE.toIconicsColor());
+//        mIcon = new IconicsDrawable(getContext()).icon(icon).color(IconicsColor.colorInt(Color.WHITE));
     }
 }
