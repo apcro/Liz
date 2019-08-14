@@ -44,4 +44,6 @@ dependencies {
     /* icons */
     implementation "com.mikepenz:iconics-core:4.0.1-b01"
     implementation "com.mikepenz:iconics-views:4.0.1-b01"
+    implementation 'com.mikepenz:google-material-typeface:3.0.1.2.original@aar'
+    implementation 'com.mikepenz:community-material-typeface:3.5.95.1-kotlin@aar'
 }

@@ -1,5 +1,5 @@
 # Liz
-[![](https://jitpack.io/v/com.github.HoraApps/Liz.svg)](https://jitpack.io/#com.github.HoraApps/Liz)
+[![](https://jitpack.io/v/apcro/Liz.svg)](https://jitpack.io/#apcro/Liz)
 
 Add support to themes in your app.
 
@@ -9,7 +9,7 @@ Usage example [LeafPic](https://github.com/apcro/LeafPic)
 
 ### Gradle Dependency:
 
-*Liz* is available on [**jitpack.io**](https://jitpack.io/#com.github.HoraApps/Liz).
+This version of *Liz* is available on [**jitpack.io**](https://jitpack.io/#apcro/Liz).
 
 Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
 ```gradle
@@ -24,6 +24,6 @@ Add this in your module `build.gradle` file:
 ```gradle
 
 dependencies {
-    implementation 'com.github.HoraApps:Liz:-SNAPSHOT'
+    implementation 'com.github.apcro:Liz:0.6.0'
 }
 ```
